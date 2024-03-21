@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TRAVEL</title>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./icon/fontawesome-free-6.4.0-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto+Slab:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./style.js"></script>
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./bootstrap.css" rel="stylesheet" />
+    <link href="./reponsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="container header">
+        <div>
+          <a href="#"><img class="logo-img" src="./img/header-logo.png" /></a>
+        </div>
+        <div id="list-navbar">
+          <ul class="list-lv1">
+            <li class="pointer list-li-lv1">
+              <a class="open-child" href="#">HOME</a>
+              <ul class="list-lv2">
+                <li><a href="#">Home 1</a></li>
+                <li><a href="#">Home 2</a></li>
+              </ul>
+            </li>
+
+            <li class="pointer list-li-lv1">
+              <a class="open-child" href="#">TRAVEL</a>
+              <ul class="list-lv2">
+                <li><a href="#">Search Page</a></li>
+                <li class="package">
+                  <a class="open-child" href="#">Packages</a>
+                  <ul class="list-lv3 package-child">
+                    <li><a href="#">Single Package</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Preview Layout</a></li>
+                  </ul>
+                </li>
+                <li class="destinations">
+                  <a class="open-child" href="#">Destinations</a>
+                  <ul class="list-lv3 destinations-child">
+                    <li><a href="#">Single Destinations</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Preview Layout</a></li>
+                  </ul>
+                </li>
+                <li class="typologyes">
+                  <a class="open-child" href="#">Typologyes</a>
+                  <ul class="list-lv3 typologyes-child">
+                    <li><a href="#">Single Typologyes</a></li>
+                    <li><a href="#">Archive</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="pointer list-li-lv1">
+              <a class="open-child" href="#">PAGES</a>
+              <ul class="list-lv2">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Prices</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </li>
+            <li class="pointer list-li-lv1">
+              <a class="open-child" href="#">SHOP</a>
+              <ul class="list-lv2">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Single Product</a></li>
+              </ul>
+            </li>
+            <li class="pointer list-li-lv1">
+              <a class="open-child" href="#">BLOG</a>
+              <ul class="list-lv2">
+                <li><a href="#">Archive</a></li>
+                <li><a href="#">Single Post</a></li>
+              </ul>
+            </li>
+            <li class="pointer list-li-lv1"><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="btn-seach-vs-bar">
+          <i class="fa-solid fa-bars btn-hover open-information pointer"></i>
+          <a href="#"><button class="button-main">Search</button></a>
+        </div>
+        <div class="pointer" id="open-nav-mobile">
+          <i id="change-class" class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="cover close-information" id="menu">
+        <div class="information">
+          <div class="close-information btn-hover pointer">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div>
+            <div class="logo-and-title">
+              <a href="#"
+                ><img class="logo-img" src="./img/header-logo.png"
+              /></a>
+              <p>Discover the World, one Full Adventure at a Time!</p>
+            </div>
+          </div>
+          <div class="list-bar">
+            <div>
+              <img
+                class="img-list-bar"
+                src="./img/ss5-list-img-1.jpeg"
+                alt=""
+              />
+            </div>
+            <div>
+              <img class="img-list-bar" src="./img/ss10-img-1.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="img-list-bar" src="./img/ss10-img-2.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="img-list-bar" src="./img/ss10-img-3.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="img-list-bar" src="./img/ss10-img-4.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="img-list-bar" src="./img/ss10-img-5.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="our-contacts">
+            <p>Our Contacts</p>
+            <ul>
+              <li class="title">Address</li>
+              <li>1080 Brickell Ave - Miami</li>
+              <li>United States of America</li>
+              <li class="title">Email</li>
+              <li>info@travel.com</li>
+              <li class="title">Phone</li>
+              <li>Travel Agency +1 473 483 384</li>
+              <li>Info Insurance +1 395 393 595</li>
+            </ul>
+          </div>
+          <div class="follow-us">
+            <p>Follow-us</p>
+            <div>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-invision"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="first-section">
+        <div class="container">
+          <div class="row">
+            <div class="content-ss1 col-xl-6 col-12">
+              <p>LOVE TRAVEL THEME</p>
+              <div>
+                <span>Adventure</span
+                ><span><br />& Experience The Travel !</span>
+              </div>
+            </div>
+            <!-- thanh tìm kiém ở giữa -->
+            <div class="find-between row">
+              <div class="col-xl-3 col-12">
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div>
+                  <p>Search</p>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Insert keyword"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-3 col-12">
+                <div><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <p>Destinations</p>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected value="0">All Destinations</option>
+                    <option value="4829">Africa</option>
+                    <option value="4830">&nbsp;&nbsp;- Egypt</option>
+                    <option value="4801">Europe</option>
+                    <option value="4837">&nbsp;&nbsp;- Greece</option>
+                    <option value="4802">&nbsp;&nbsp;- France</option>
+                    <option value="4798">&nbsp;&nbsp;- Italy</option>
+                    <option value="4799">Asia</option>
+                    <option value="4800">&nbsp;&nbsp;- Thailand</option>
+                    <option value="4545">&nbsp;&nbsp;- Japan</option>
+                    <option value="4544">U.S.A</option>
+                    <option value="4796">&nbsp;&nbsp;- California</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-3 col-12">
+                <div><i class="fa-solid fa-earth-americas"></i></div>
+                <div>
+                  <p>Typologies</p>
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option selected value="">All Typologies</option>
+                    <option value="4907">Sports Activities</option>
+                    <option value="4869">Family-Friendly</option>
+                    <option value="4868">Heritage Tours</option>
+                    <option value="4867">Road Trips</option>
+                    <option value="4865">Budget Travel</option>
+                    <option value="4864">Culinary Tourism</option>
+                    <option value="4863">Eco-tourism</option>
+                    <option value="4731">Adventure Travel</option>
+                    <option value="4543">Beach Holidays</option>
+                    <option value="4542">Cultural Tours</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-xl-3 col-12">
+                <button class="button-main">search</button>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="row">
+                <div class="col-xl-6 col-md-6 scroll-down">
+                  <img src="./img/img-ss1.jpeg" />
+                </div>
+                <div class="col-xl-6 col-md-6 scroll-up">
+                  <img src="./img/img-ss1-anh2.jpeg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="second-section container">
+        <div class="row">
+          <div class="col-xl-6 col-12">
+            <p class="check-font">Dream Vacation Destination</p>
+            <p>Plan the Trip of a Lifetime with Ease</p>
+            <p>
+              Whether you're looking for a romantic getaway, a family-friendly
+              adventure, or a solo journey to explore the world, a travel agency
+              can provide you with a custom-tailored itinerary that exceeds your
+              expectations.
+            </p>
+            <button class="button-main">More Info</button>
+          </div>
+        </div>
+
+        <div class="list-img-ss2 row">
+          <div class="col-xl-4 col-12">
+            <div class="list-img-map">
+              <img src="./img/map-icon-visual-01.gif" alt="" />
+              <p>City Walks Tour</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-12">
+            <div class="list-img-mountain">
+              <img src="./img/mountain-icon-visual-02.gif" alt="" />
+              <p>Electric Bikes</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-12">
+            <div class="list-img-churd">
+              <img src="./img/churd-icon-visual-03.gif" alt="" />
+              <p>Skyscrapers View</p>
+            </div>
+          </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------- -->
+      </section>
+      <section class="third-section container">
+        <div class="list-img-ss3-bottom row">
+          <div class="col-xl-4 col-12 item-1">
+            <div class="list-item-ss3-bottom">
+              <a class="w-100" href="#"
+                ><img src="./img/list-bottom-ss2-1.jpeg" alt=""
+              /></a>
+
+              <div class="time-email-map">
+                <div class="">
+                  <i class="fa-solid fa-clock"></i>
+                  <a href="#"><span>5 day</span></a>
+                </div>
+                <div class="">
+                  <i class="fa-solid fa-envelope openModal pointer"></i>
+                  <i class="fa-solid fa-route open-map pointer"></i>
+                </div>
+              </div>
+            </div>
+            <div class="content-travel">
+              <div class="tendiadiem">
+                <a href="">CHIANG MAI</a>
+                <a href=""><i class="fa-solid fa-location-dot"></i>Thailand</a>
+              </div>
+              <div>
+                <p>
+                  Visit the temples and the Chiang Mai Night Bazaar, a huge huge
+                  market located on Chiang Klan Road.
+                </p>
+              </div>
+              <div class="details-price">
+                <button class="button-main">Details</button>
+                <div class="text-right">
+                  <span>From</span>
+                  <div>
+                    <span>$ 490</span>
+                    <span>$ 550</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-12 item-2">
+            <div class="list-item-ss3-bottom">
+              <a class="w-100" href="#"
+                ><img src="./img/list-bottom-ss2-2.jpeg" alt=""
+              /></a>
+
+              <div class="time-email-map">
+                <div class="">
+                  <i class="fa-solid fa-clock"></i>
+                  <a href="#"><span>5 day</span></a>
+                </div>
+                <div class="">
+                  <i class="fa-solid fa-envelope openModal pointer"></i>
+                  <i class="fa-solid fa-route open-map pointer"></i>
+                </div>
+              </div>
+            </div>
+            <div class="content-travel">
+              <div class="tendiadiem">
+                <a href="">CHIANG MAI</a>
+                <a href=""><i class="fa-solid fa-location-dot"></i>Thailand</a>
+              </div>
+              <div>
+                <p>
+                  Visit the temples and the Chiang Mai Night Bazaar, a huge huge
+                  market located on Chiang Klan Road.
+                </p>
+              </div>
+              <div class="details-price">
+                <button class="button-main">Details</button>
+                <div class="text-right">
+                  <span>From</span>
+                  <div>
+                    <span>$ 490</span>
+                    <span>$ 550</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-12 item-3">
+            <div class="list-item-ss3-bottom">
+              <a class="w-100" href="#"
+                ><img src="./img/list-bottom-ss2-03.jpeg" alt=""
+              /></a>
+
+              <div class="time-email-map">
+                <div class="">
+                  <i class="fa-solid fa-clock"></i>
+                  <a href="#"><span>5 day</span></a>
+                </div>
+                <div class="">
+                  <i class="fa-solid fa-envelope openModal pointer"></i>
+                  <i class="fa-solid fa-route open-map pointer"></i>
+                </div>
+              </div>
+            </div>
+            <div class="content-travel">
+              <div class="tendiadiem">
+                <a href="">CHIANG MAI</a>
+                <a href=""><i class="fa-solid fa-location-dot"></i>Thailand</a>
+              </div>
+              <div>
+                <p>
+                  Visit the temples and the Chiang Mai Night Bazaar, a huge huge
+                  market located on Chiang Klan Road.
+                </p>
+              </div>
+              <div class="details-price">
+                <button class="button-main">Details</button>
+                <div class="text-right">
+                  <span>From</span>
+                  <div>
+                    <span>$ 490</span>
+                    <span>$ 550</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="modalBackdrop-form">
+        <div id="modalContent" class="container col-xl-9">
+          <div id="closeModal" class="pointer btn-hover">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <div class="content-form">
+            <p>Pre Sales Request</p>
+            <p>Fill free to contact us for any additional informations</p>
+          </div>
+          <form class="row">
+            <div class="form-group col-xl-12">
+              <input
+                type="text"
+                class="form-control"
+                id="id-travel"
+                placeholder="Bang KoK"
+              />
+            </div>
+            <div class="form-group col-xl-6">
+              <input
+                type="text"
+                class="form-control"
+                id="yourname"
+                placeholder="Type your name"
+              />
+            </div>
+            <div class="form-group col-xl-6">
+              <input
+                type="text"
+                class="form-control"
+                id="yoursurname"
+                placeholder="Type your surname"
+              />
+            </div>
+            <div class="form-group col-xl-6">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Insert your email"
+              />
+            </div>
+            <div class="form-group col-xl-6">
+              <input
+                type="text"
+                class="form-control"
+                id="phone"
+                placeholder="Insert your phone"
+              />
+            </div>
+
+            <div class="form-group col-xl-6">
+              <input
+                placeholder="Select date"
+                type="date"
+                id="date"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group col-xl-6">
+              <input
+                type="number"
+                class="form-control"
+                id="number"
+                placeholder="Insert number guest"
+              />
+            </div>
+            <div class="form-group col-xl-12">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Your Message"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="button-main">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div id="modal-map">
+        <div id="modal-content-map" class="container col-xl-9">
+          <div id="close-map" class="pointer btn-hover">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.6216307156596!2d105.81657307314451!3d20.967704689876886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acfcef548845%3A0x8b95450b595c4bff!2zNDcgxJAuVGhhbmggTGnhu4d0LCBUaGFuaCBMaeG7h3QsIFRoYW5oIFRyw6wsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1710749706018!5m2!1svi!2s"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <section class="fourth-section">
+        <div class="container">
+          <div class="content-ss4 content">
+            <p>Choose your Trip</p>
+            <p>Start your Vacation Now</p>
+            <p>
+              Looking for your dream vacation destination but don't know where
+              to start? With the help of experienced and knowledgeable travel
+              agents, you can plan the trip of a lifetime with ease.
+            </p>
+          </div>
+          <div class="find-between row">
+            <div class="col-xl-3 col-12">
+              <div><i class="fa-solid fa-magnifying-glass"></i></div>
+              <div>
+                <p>search</p>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Insert keyword"
+                />
+              </div>
+            </div>
+            <div class="col-xl-3 col-12">
+              <div><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <p>Destinations</p>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected value="0">All Destinations</option>
+                  <option value="4829">Africa</option>
+                  <option value="4830">&nbsp;&nbsp;- Egypt</option>
+                  <option value="4801">Europe</option>
+                  <option value="4837">&nbsp;&nbsp;- Greece</option>
+                  <option value="4802">&nbsp;&nbsp;- France</option>
+                  <option value="4798">&nbsp;&nbsp;- Italy</option>
+                  <option value="4799">Asia</option>
+                  <option value="4800">&nbsp;&nbsp;- Thailand</option>
+                  <option value="4545">&nbsp;&nbsp;- Japan</option>
+                  <option value="4544">U.S.A</option>
+                  <option value="4796">&nbsp;&nbsp;- California</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xl-3 col-12">
+              <div><i class="fa-solid fa-list"></i></div>
+              <div>
+                <p>Typologies</p>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected value="">All Typologies</option>
+                  <option value="4907">Sports Activities</option>
+                  <option value="4869">Family-Friendly</option>
+                  <option value="4868">Heritage Tours</option>
+                  <option value="4867">Road Trips</option>
+                  <option value="4865">Budget Travel</option>
+                  <option value="4864">Culinary Tourism</option>
+                  <option value="4863">Eco-tourism</option>
+                  <option value="4731">Adventure Travel</option>
+                  <option value="4543">Beach Holidays</option>
+                  <option value="4542">Cultural Tours</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-xl-3 col-12">
+              <button class="button-main">search</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fifth-section">
+        <div class="container">
+          <div class="row">
+            <div class="content col-xl-6">
+              <p>Next Adventure</p>
+              <p>Travel Destinations Available Worldwide</p>
+              <p>
+                We have compiled a list of top destinations across the globe,
+                scoured the world for the most alluring and fascinating places
+                to visit. From the beautiful beaches of the Caribbean to the
+                majestic mountains of Europe and the vibrant cities of Asia, our
+                destination list has something for everyone.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <!-- <div class="col-xl-3 col-md-6 col-12">
+              <div>
+                <div class="test">
+                  <p>Greece</p>
+                  <p>Experience the ancient history & beache</p>
+                  <button class="button-main">All Packages</button>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-xl-3 col-md-6 col-12">
+              <div>
+                <div>
+                  <p>Greece</p>
+                  <p>Experience the ancient history & beache</p>
+                  <button class="button-main">All Packages</button>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-xl-3 col-md-6 col-12">
+              <div class="box">
+                <div class="box-img">
+                  <img src="./img/ss5-list-img-1.jpeg" alt="" />
+                </div>
+                <div class="box-content">
+                  <p>gfegfui</p>
+                </div>
+              </div>
+            </div> -->
+            <div class="col-xl-3 col-md-6 col-12">
+              <div>
+                <p>Egypt</p>
+                <p>Discover the land of pharaohs & pyramids</p>
+                <button class="button-main">All Packages</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-12">
+              <div>
+                <p>Africa</p>
+                <p>Embark on a journey for your lifetime</p>
+                <button class="button-main">All Packages</button>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 col-12">
+              <div>
+                <p>France</p>
+                <p>Indulge in the art, culture, and cuisine</p>
+                <button class="button-main">All Packages</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sixth-section container-fluid">
+        <div class="container">
+          <div class="row control-img">
+            <div class="col-xl-6 slider-ss6">
+              <div><img src="./img/slide-ss6-1.jpeg" /></div>
+              <div><img src="./img/slide-ss6-2.jpeg" /></div>
+            </div>
+            <div class="col-xl-6">
+              <div class="content content-ss6">
+                <p>Adventure Travel</p>
+                <p>Embrace the Thrill of the Unknown</p>
+                <p>
+                  Are you tired of the typical tourist destinations and looking
+                  to step out of your comfort zone? Adventure travel may be the
+                  perfect solution for you! Here are four reasons why you should
+                  book an adventure travel experience :
+                </p>
+                <div>
+                  <span>
+                    <i class="fa-solid fa-check"></i>
+                    Connect with nature
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-check"></i>
+                    Experience other cultures
+                  </span>
+                  <span>
+                    <i class="fa-solid fa-check"></i>
+                    Create unforgettable memories
+                  </span>
+                </div>
+                <div>
+                  <button class="button-main btn-hover">All Service</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="video-slide-section container">
+        <div><p>Travel Itineraries</p></div>
+        <div>
+          <video autoplay loop muted>
+            <source
+              src="./video/Love Travel City Tour Demo.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="slider-bottom-vd">
+          <div><img src="./img/ss-vd-1.png" alt="" /></div>
+          <div><img src="./img/ss-vd-2.png" alt="" /></div>
+          <div><img src="./img/ss-vd-3.png" alt="" /></div>
+          <div><img src="./img/ss-vd-4.png" alt="" /></div>
+          <div><img src="./img/ss-vd-5.png" alt="" /></div>
+          <div><img src="./img/ss-vd-3.png" alt="" /></div>
+        </div>
+      </section>
+      <section class="seventh-section">
+        <div class="container">
+          <div class="row">
+            <div class="content col-xl-6">
+              <p></p>
+              <p>Unforgettable Travel Experiences</p>
+              <p>
+                Our customer's feedback is essential in building a great
+                reputation and maintaining excellent service. By listening to
+                our customer's needs, we can improve our offerings and provide
+                an exceptional travel experience.
+              </p>
+            </div>
+            <div class="col-xl-6 ss7-imgdaidien">
+              <img src="./img/ss10-img-2.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="row slider-ss7">
+            <div class="col-xl-6 item-slide-ss7">
+              <div>
+                <p>
+                  My husband and I have been using this travel agency for years
+                  and they have never disappointed us.
+                </p>
+                <div>
+                  <img
+                    src="./img/slide-ss6-1.jpeg"
+                    alt=""
+                    class="img-daidien"
+                  />
+                  <div>
+                    <span><strong>Jennifer and Mark</strong></span>
+                    <span>San Francisco</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 item-slide-ss7">
+              <div>
+                <p>
+                  My husband and I have been using this travel agency for years
+                  and they have never disappointed us.
+                </p>
+                <div>
+                  <img
+                    src="./img/slide-ss6-1.jpeg"
+                    alt=""
+                    class="img-daidien"
+                  />
+                  <div>
+                    <span><strong>Jennifer and Mark</strong></span>
+                    <span>San Francisco</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 item-slide-ss7">
+              <div>
+                <p>
+                  My husband and I have been using this travel agency for years
+                  and they have never disappointed us.
+                </p>
+                <div>
+                  <img
+                    src="./img/slide-ss6-1.jpeg"
+                    alt=""
+                    class="img-daidien"
+                  />
+                  <div>
+                    <span><strong>Jennifer and Mark</strong></span>
+                    <span>San Francisco</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 item-slide-ss7">
+              <div>
+                <p>
+                  My husband and I have been using this travel agency for years
+                  and they have never disappointed us.
+                </p>
+                <div>
+                  <img
+                    src="./img/slide-ss6-1.jpeg"
+                    alt=""
+                    class="img-daidien"
+                  />
+                  <div>
+                    <span><strong>Jennifer and Mark</strong></span>
+                    <span>San Francisco</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6 item-slide-ss7">
+              <div>
+                <p>
+                  My husband and I have been using this travel agency for years
+                  and they have never disappointed us.
+                </p>
+                <div>
+                  <img
+                    src="./img/slide-ss6-1.jpeg"
+                    alt=""
+                    class="img-daidien"
+                  />
+                  <div>
+                    <span><strong>Jennifer and Mark</strong></span>
+                    <span>San Francisco</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="eighth-section">
+        <div class="container">
+          <div class="content">
+            <p>Clear Price</p>
+            <p>Affordable Travel Packages</p>
+            <p>
+              We believe that everyone deserves to experience their dream
+              vacation without breaking the bank. That's why we offer a price
+              section on our website that features a range of affordable travel
+            </p>
+          </div>
+          <div class="row list-packages-travel">
+            <div class="packages-travel col-xl-4">
+              <div class="packages-item">
+                <div class="name-travel">Half Board</div>
+                <div class="price-travel">
+                  <span>$</span>
+                  <span>50</span>
+                  <span>/Day</span>
+                </div>
+                <div class="criteria-travel">
+                  <p>Transfers from Airport</p>
+                  <p>Minimum 3 Star Hotel</p>
+                  <p>Alcoholic beverages</p>
+                  <p>Incl. Museum Tickets</p>
+                  <p>Meals in Restaurants</p>
+                </div>
+                <div class="">
+                  <button class="button-main btn-hover">VIEW TRIPS</button>
+                </div>
+              </div>
+            </div>
+            <div class="packages-travel col-xl-4">
+              <div class="packages-item">
+                <div class="name-travel">All Inclusive</div>
+                <div class="price-travel">
+                  <span>$</span>
+                  <span>32</span>
+                  <span>/Day</span>
+                </div>
+                <div class="criteria-travel">
+                  <p>Transfers from Airport</p>
+                  <p>Minimum 3 Star Hotel</p>
+                  <p>Alcoholic beverages</p>
+                  <p>Incl. Museum Tickets</p>
+                  <p>Meals in Restaurants</p>
+                </div>
+                <div class="">
+                  <button class="button-main btn-hover">VIEW ALL</button>
+                </div>
+              </div>
+            </div>
+            <div class="packages-travel col-xl-4">
+              <div class="packages-item">
+                <div class="name-travel">Excursions Included</div>
+                <div class="price-travel">
+                  <span>$</span>
+                  <span>68</span>
+                  <span>/Day</span>
+                </div>
+                <div class="criteria-travel">
+                  <p>Transfers from Airport</p>
+                  <p>Minimum 3 Star Hotel</p>
+                  <p>Alcoholic beverages</p>
+                  <p>Incl. Museum Tickets</p>
+                  <p>Meals in Restaurants</p>
+                </div>
+                <div class="">
+                  <button class="button-main btn-hover">BUTTON</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="text-center">* All trips include medical insurance</p>
+        </div>
+      </section>
+      <section class="nighth-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6">
+              <div class="content">
+                <p>Wandering Souls</p>
+                <p>Discover Your Next Adventure</p>
+                <p>
+                  Whether you're planning a romantic honeymoon or a family
+                  vacation, our price section has got you covered. So, start
+                  browsing today and find the perfect vacation package at a
+                  price that won't leave you feeling guilty.
+                </p>
+              </div>
+              <div>
+                <div>
+                  <p>Organized Group Tour</p>
+                  <div class="percentage-bar">
+                    <div class="persent-90"></div>
+                  </div>
+                </div>
+                <div>
+                  <p>Single Customized Trip</p>
+                  <div class="percentage-bar">
+                    <div class="persent-80"></div>
+                  </div>
+                </div>
+              </div>
+              <button class="button-main btn-hover">MORE INFO</button>
+            </div>
+            <div class="col-xl-6">
+              <img
+                src="./img/img-ss1-anh2.jpeg"
+                alt=""
+                class="ss9-img img-hover"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ss10-section container">
+        <div class="content text-center">
+          <p>Roaming Tales</p>
+          <p>Travel Blog</p>
+          <p>
+            We share our experiences, tips and travel stories to inspire and
+            guide our readers in their own wanderlust adventures. From hidden
+            gems to popular destinations, we showcase the beauty and diversity
+            of the world, and promote responsible and sustainable travel.
+          </p>
+        </div>
+        <div class="list-blog-dulich">
+          <div class="item-blog-dulich">
+            <div>
+              <img class="img-hover" src="./img/ss10-img-1.jpeg" alt="" />
+            </div>
+            <div class="ss10-item1-divlast">
+              <button class="btn-time btn-hover">April 7,2023</button>
+              <p>
+                <strong class="name-blog-dulich"
+                  >Plan the Perfect Vacation</strong
+                >
+              </p>
+              <p>
+                Planning a vacation can be overwhelming, but this post offers a
+                step-by-step guide to help readers create a comprehensive travel
+                itinerary. From choosing a destination to booking accommodations
+                and activities, readers will learn how to plan a stress-free and
+                enjoyable trip.
+              </p>
+            </div>
+            <button class="button-main btn-hover">Read More</button>
+          </div>
+          <div class="item-blog-dulich">
+            <div>
+              <img class="img-hover" src="./img/ss10-img-2.jpeg" alt="" />
+            </div>
+            <div>
+              <button class="btn-time btn-hover">April 7,2023</button>
+              <p>
+                <strong class="name-blog-dulich"
+                  >Discover the Hidden Gems</strong
+                >
+              </p>
+              <p>
+                Benefits of traveling alone, from the freedom to discover new
+                places with new friends.
+              </p>
+            </div>
+          </div>
+          <div class="item-blog-dulich">
+            <div>
+              <img class="img-hover" src="./img/ss10-img-3.jpeg" alt="" />
+            </div>
+            <div>
+              <button class="btn-time btn-hover">April 7,2023</button>
+              <p>
+                <strong class="name-blog-dulich">Must-See Landmarks</strong>
+              </p>
+              <p>
+                Iconic landmarks that make Europe one of the world's most
+                popular travel destinations.
+              </p>
+            </div>
+          </div>
+          <div class="item-blog-dulich">
+            <div>
+              <img class="img-hover" src="./img/ss10-img-4.jpeg" alt="" />
+            </div>
+            <div>
+              <button class="btn-time btn-hover">April 7,2023</button>
+              <p>
+                <strong class="name-blog-dulich">Traveling on a Budget</strong>
+              </p>
+              <p>
+                Practical advice for travelers who want to see the world without
+                breaking the bank.
+              </p>
+            </div>
+          </div>
+          <div class="item-blog-dulich">
+            <div>
+              <img class="img-hover" src="./img/ss10-img-5.jpeg" alt="" />
+            </div>
+            <div>
+              <button class="btn-time btn-hover">April 7,2023</button>
+              <p>
+                <strong class="name-blog-dulich">Explore the Wonders</strong>
+              </p>
+              <p>
+                Must-see destinations and experiences, including wildlife and
+                cultural experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="btn-khongdichuyen">
+        <a href="#"> <button class="btn-hover">All Demos</button></a>
+        <a href="#"><button class="btn-hover">Purchase Theme</button></a>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6">
+              <p class="content-ft">
+                Travel beyond your imagination, with our Travel Agency!
+              </p>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <ul>
+                <li><strong>Address</strong></li>
+                <li>1080 Brickell Ave</li>
+                <li>Miami - Florida</li>
+                <li>U.S. of America</li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <ul>
+                <li><strong>Contact</strong></li>
+                <li>
+                  <button class="button-main btn-hover">info@travel.com</button>
+                </li>
+                <li class="phone-number">+ 01 483 593 284</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div>
+              <ul>
+                <li><a href="#">Travel WordPress Theme</a></li>
+                <li>Rental</li>
+                <li>Insurance</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><i class="fa-brands fa-cc-visa"></i></li>
+                <li><i class="fa-brands fa-stripe"></i></li>
+                <li><i class="fa-brands fa-cc-paypal"></i></li>
+                <li><i class="fa-brands fa-cc-mastercard"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // ----------------------------------------------open-form
+      document.addEventListener("DOMContentLoaded", function () {
+        var openModalButtons = document.querySelectorAll(".openModal");
+        var closeModalButton = document.getElementById("closeModal");
+        var modalBackdrop = document.getElementById("modalBackdrop-form");
+        var modalContent = document.getElementById("modalContent");
+
+        openModalButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            modalBackdrop.style.display = "flex";
+            modalContent.style.display = "block";
+          });
+        });
+
+        closeModalButton.addEventListener("click", function () {
+          modalBackdrop.style.display = "none";
+          modalContent.style.display = "none";
+        });
+      });
+      // -----------------------------------------------------open-map
+      document.addEventListener("DOMContentLoaded", function () {
+        var openModalButtons = document.querySelectorAll(".open-map");
+        var closeModalButton = document.getElementById("close-map");
+        var modalBackdrop = document.getElementById("modal-map");
+        var modalContent = document.getElementById("modal-content-map");
+
+        openModalButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            modalBackdrop.style.display = "flex";
+            modalContent.style.display = "block";
+          });
+        });
+
+        closeModalButton.addEventListener("click", function () {
+          modalBackdrop.style.display = "none";
+          modalContent.style.display = "none";
+        });
+      });
+      // ------------------------------------------------------
+      $(".slider-ss6").slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        prevArrow:
+          "<button type='button' class='icon-control-left icon-control'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+        nextArrow:
+          "<button type='button' class='icon-control-right icon-control'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+      });
+      $(".slider-ss7").slick({
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+      $(".slider-bottom-vd").slick({
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 551,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+        ],
+      });
+      //--------------------------------------------------------------------------------------------------------
+      document.addEventListener("DOMContentLoaded", function () {
+        var triggerButtons =
+          document.getElementsByClassName("open-information");
+        for (var i = 0; i < triggerButtons.length; i++) {
+          triggerButtons[i].addEventListener("click", function () {
+            var menu = document.getElementById("menu");
+            menu.classList.remove("active-out");
+            menu.classList.add("active-in");
+
+            console.log("dg mở nav");
+          });
+        }
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        var triggerButtons = document.querySelectorAll(".close-information");
+        for (var i = 0; i < triggerButtons.length; i++) {
+          triggerButtons[i].addEventListener("click", function () {
+            var menu = document.getElementById("menu");
+            menu.classList.remove("active-in");
+            menu.classList.add("active-out");
+            console.log("đóng nav");
+          });
+        }
+      });
+      // -----------------------------------------------------------------thay class
+
+      // document
+      //   .getElementById("open-nav-mobile")
+      //   .addEventListener("click", function () {
+      //     var button = document.getElementById("change-class");
+      //     var listNav = document.getElementById("list-navbar");
+      //     var computedStyle = window.getComputedStyle(listNav);
+
+      //     button.classList.toggle("fa-xmark");
+      //     button.classList.toggle("fa-bars");
+      //     listNav.classList.remove("active-out");
+      //     listNav.classList.add("active-in");
+      //   });
+      document
+        .getElementById("open-nav-mobile")
+        .addEventListener("click", function () {
+          var button = document.getElementById("change-class");
+          var listNav = document.getElementById("list-navbar");
+          var computedStyle = window.getComputedStyle(listNav);
+
+          if (!listNav.classList.contains("active-in")) {
+            button.classList.remove("fa-bars");
+            button.classList.add("fa-xmark");
+            listNav.classList.remove("active-out");
+            listNav.classList.add("active-in");
+          } else {
+            button.classList.remove("fa-xmark");
+            button.classList.add("fa-bars");
+            listNav.classList.remove("active-in");
+            listNav.classList.add("active-out");
+          }
+        });
+
+      // ------------------------------------------------------thanh nav hiện khi click
+      document.querySelectorAll(".open-child").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          var listContainer = btn.nextElementSibling;
+          if (
+            listContainer.style.display === "none" ||
+            listContainer.style.display === ""
+          ) {
+            listContainer.style.display = "flex";
+            setTimeout(function () {
+              listContainer.style.opacity = "1";
+              console.log("havxjgsayugxyugbuyxgbu");
+            }, 10);
+          } else {
+            listContainer.style.opacity = "0";
+            setTimeout(function () {
+              listContainer.style.display = "none";
+              console.log("1234567890");
+            }, 100);
+          }
+        });
+      });
+      //-------------------------------------------------hàm xử lí cuộn trang
+      let initialTransform = 0; // Giá trị ban đầu của transform
+      let isScrollingDown = true; // Biến để theo dõi hướng cuộn trang
+
+      // Hàm xử lý sự kiện cuộn trang
+      function handleScroll() {
+        // Kiểm tra kích thước màn hình
+        const screenWidth =
+          window.innerWidth || document.documentElement.clientWidth;
+        if (screenWidth <= 1200) return; // Nếu màn hình nhỏ hơn hoặc bằng 1200px, thoát khỏi hàm
+
+        const contentdown = document.querySelector(".scroll-down");
+        // Kiểm tra vị trí cuộn của trang
+        const scrollTop = window.scrollY || window.pageYOffset;
+
+        if (scrollTop > 0 && scrollTop <= 1400) {
+          // Nếu người dùng đã cuộn và chưa cuộn quá 1400px, điều chỉnh transform
+          if (isScrollingDown) {
+            contentdown.style.transform = `translateY(calc(${
+              scrollTop / 5
+            }px))`;
+          } else {
+            contentdown.style.transform = `translateY(calc(-${
+              scrollTop / 5
+            }px))`;
+          }
+        } else if (scrollTop <= 0) {
+          // Nếu người dùng chưa cuộn, trở lại giá trị ban đầu
+          contentdown.style.transform = `translateY(0%)`;
+        } else {
+          // Nếu người dùng cuộn quá 1400px, dừng hàm
+          contentdown.style.transform = `translateY(250px))`;
+        }
+      }
+
+      // Lắng nghe sự kiện cuộn trang
+      window.addEventListener("scroll", handleScroll);
+
+      // Lắng nghe sự kiện cuộn trang để xác định hướng cuộn
+      window.addEventListener("scroll", () => {
+        const scrollTop = window.scrollY || window.pageYOffset;
+        isScrollingDown = scrollTop > lastScrollTop;
+      });
+    </script>
+  </body>
+</html>
